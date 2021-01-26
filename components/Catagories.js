@@ -1,11 +1,9 @@
 import React ,{useState,useEffect}from 'react';
 import {
-
   StyleSheet,
-
   View,
-
   TouchableOpacity,
+  ScrollView
 } from 'react-native';
 import {
     H3,
@@ -93,7 +91,7 @@ const Catagories = ({route,navigation}) => {
     } 
 
   return (
-    <>
+    <ScrollView>
       <View style={styles.container}>
         <View style={styles.circle}/>
         <View style={styles.front}>
