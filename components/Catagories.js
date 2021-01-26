@@ -151,7 +151,7 @@ const Catagories = ({route,navigation}) => {
         </TouchableOpacity>       
         </View>        
       </View>
-    </>
+    </ScrollView>
   );
 };
 export default Catagories;
