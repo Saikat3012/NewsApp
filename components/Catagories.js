@@ -91,8 +91,7 @@ const Catagories = ({route,navigation}) => {
     } 
 
   return (
-    <ScrollView>
-      <View style={styles.container}>
+    <ScrollView style={styles.container}>
         <View style={styles.circle}/>
         <View style={styles.front}>
           <H1 style={{
@@ -150,7 +149,6 @@ const Catagories = ({route,navigation}) => {
           <H1 style={styles.submitBtn}>Submit</H1>
         </TouchableOpacity>       
         </View>        
-      </View>
     </ScrollView>
   );
 };
@@ -161,7 +159,6 @@ export default Catagories;
 
 const styles = StyleSheet.create({
   container:{
-    flex:1,
     backgroundColor:'#3cc6c3',
   },
   circle:{
@@ -191,7 +188,8 @@ const styles = StyleSheet.create({
     paddingBottom:10,
     paddingHorizontal:35,
     borderRadius:70,
-    marginTop:42,
-    fontSize:40,
+    marginTop:18,
+    fontSize: 40,
+    marginBottom:15,
   },
 });

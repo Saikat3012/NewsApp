@@ -91,7 +91,7 @@ const NewsScreen = ({ navigation }) => {
                     }}
                     style={styles.img}
                 />
-                <Text style={{ marginTop: 5,marginLeft:10 }}>{neee.description}</Text>
+                <Text style={{ marginTop: 5,marginLeft:10,color:'#faa',fontSize:18}}>{neee.description}</Text>
             </View>
         </TouchableOpacity>
     );
@@ -174,7 +174,7 @@ const styles = StyleSheet.create({
     borderWidth:1
   },
   title: {
-    fontSize: 20,
+    fontSize: 22,
       color: '#fd6c08',
     marginLeft:10
   },
